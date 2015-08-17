@@ -2,12 +2,11 @@
 
 var express = require("express");
 var bodyParser = require("body-parser");
+var routes = require("./routes/routes");
 
 var app = express();
 
-app.get("/", function (req, res) {
-    res.send("Express is running and live reload should be working");
-});
+routes(app);
 
 var server = app.listen(3000, function () {
     var port = server.address().port;

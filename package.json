@@ -18,7 +18,8 @@
   "homepage": "https://github.com/awaseem/random-api",
   "dependencies": {
     "body-parser": "^1.13.3",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mongoose": "^4.1.3"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
