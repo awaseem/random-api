@@ -1,0 +1,27 @@
+{
+  "name": "random-api",
+  "version": "1.0.0",
+  "description": "A simple RESTful API created for front end projects or for learning purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awaseem/random-api.git"
+  },
+  "author": "Ali Waseem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awaseem/random-api/issues"
+  },
+  "homepage": "https://github.com/awaseem/random-api",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-live-server": "0.0.23"
+  }
+}
